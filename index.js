@@ -35,61 +35,61 @@ function addTask() {
 
  
 
-    // if (ele.value == "")
+    if (ele.value == "")
 
-    //     return;
-
- 
-
-    // count++;
-
-    // x.innerHTML = count + "-" + ele.value;
-
-    // xValues.push(ele.value);
-
-    // yValues.push(50);
-
-    // barColors.push(barColor[a]);
-
-    // a++;
-
-    // a = a % 5;
-
-    // pie();
-
-    // ele11.appendChild(x);
+        return;
 
  
 
-    // y = document.createElement("div");
+    count++;
 
-    // y.setAttribute("class", "icons")
+    x.innerHTML = count + "-" + ele.value;
+
+    xValues.push(ele.value);
+
+    yValues.push(50);
+
+    barColors.push(barColor[a]);
+
+    a++;
+
+    a = a % 5;
+
+    pie();
+
+    ele11.appendChild(x);
 
  
 
-    // var img = document.createElement("img");
+    y = document.createElement("div");
 
-    // img.src = "./delete.png";
-
-    // img.setAttribute("width", "30px");
-
-    // img.setAttribute("class", "img-delete");
-
-    // y.appendChild(img);
+    y.setAttribute("class", "icons")
 
  
 
-    // var img1 = document.createElement("img");
+    var img = document.createElement("img");
 
-    // img1.src = "./edit.png";
+    img.src = "./delete.png";
 
-    // img1.setAttribute("width", "30px");
+    img.setAttribute("width", "30px");
 
-    // img1.setAttribute("class", "img-delete");
+    img.setAttribute("class", "img-delete");
 
-    // y.appendChild(img1);
+    y.appendChild(img);
 
-    // x.appendChild(y);
+ 
+
+    var img1 = document.createElement("img");
+
+    img1.src = "./edit.png";
+
+    img1.setAttribute("width", "30px");
+
+    img1.setAttribute("class", "img-delete");
+
+    y.appendChild(img1);
+
+    x.appendChild(y);
 
     ele.value = "";
 
