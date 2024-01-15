@@ -1,0 +1,139 @@
+body {
+
+    background-color: #1F2833;
+
+    font-style: initial;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: black;
+
+ 
+
+}
+
+ 
+
+#main {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+ 
+
+#task {
+
+    border: 2px solid black;
+
+    background-color: rgb(105, 137, 160);
+
+    margin-top: 15px;
+
+}
+
+ 
+
+#tasks {
+
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 25px;
+
+}
+
+ 
+
+#colorr {
+
+    /* background-color:hsl(213, 64%, 91%); */
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-right: 20px;
+
+}
+
+ 
+
+.icons {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 90px;
+
+}
+
+ 
+
+.img-delete:hover {
+
+    transform: scale(1.5);
+
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+ 
+
+#heading {
+
+    color: rgb(241, 245, 236);
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+ 
+
+#input1 {
+
+    height: 40px;
+
+    width: 500px;
+
+    border-radius: 10px;
+
+}
+
+ 
+
+.button1 {
+
+    height: 40px;
+
+    width: 100px;
+
+    border-radius: 10px;
+
+}
+
+ 
+
+#abc {
+
+    display: flex;
+
+    justify-content: center;
+
+}

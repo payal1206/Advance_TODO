@@ -1,0 +1,43 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>TODO LIST</title>
+
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js></script>
+
+</head>
+
+<body>
+
+    <h1 id="heading">Make Your ToDo-List Daily</h1>
+
+    <div id="main">
+
+        <input type="text" id="input1" placeholder="Please Enter your Task">
+
+        &nbsp; &nbsp;&nbsp; &nbsp;
+
+        <button onclick="addTask()" class="button1">Submit</button>
+
+        <button onclick="deleteTask()" class="button1">Delete</button>
+
+    </div>
+
+    <div id="abc">
+
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+    </div>
+
+    <div id="task">
+
+        <p id="tasks">No Tasks Found</p>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
